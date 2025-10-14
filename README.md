@@ -10,7 +10,7 @@ $ blog
 
 $ current  
 - [Astron-xmod-shim](https://github.com/iflytek/Astron-xmod-shim)  
-  High-reliability shim layer  
+  Author · Declarative AI service control shim  
   ![CI](https://github.com/iflytek/Astron-xmod-shim/workflows/CI/badge.svg)
   ![Go Version](https://img.shields.io/github/go-mod/go-version/iflytek/Astron-xmod-shim?logo=go&color=00ADD8)
   ![License](https://img.shields.io/github/license/iflytek/Astron-xmod-shim?color=blue)
