@@ -1,14 +1,14 @@
-$ cat /dev/identity
-
+$ cat /dev/identity  
 Infra Engineer
-> Overlay 以藏形，Overlap 以夺时。  
-> 空间无争，时间无隙——系统自疾。
 
-$ blog
+$ cat /dev/motto  
+Overlay 以藏形，Overlap 以夺时.  
+空间无争，时间无隙——系统自疾.
+
+$ blog  
 [静谧之心](https://haoxuanli.blog.csdn.net) — OverlayFS · OverlapIO · RBG · C1M
 
-$ current
-
+$ current  
 - [Astron-xmod-shim](https://github.com/iflytek/Astron-xmod-shim)  
   High-reliability shim layer  
   ![CI](https://github.com/iflytek/Astron-xmod-shim/workflows/CI/badge.svg)
@@ -16,6 +16,7 @@ $ current
   ![License](https://img.shields.io/github/license/iflytek/Astron-xmod-shim?color=blue)
   ![Release](https://img.shields.io/github/v/release/iflytek/Astron-xmod-shim?sort=semver)
 
-$ stats
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=bestksl&show_icons=true&theme=vue&hide_border=true&bg_color=ffffff&border_color=eeeeee)  
+$ stats  
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=bestksl&show_icons=true&theme=vue&hide_border=true&bg_color=ffffff&border_color=eeeeee)
+
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=bestksl&layout=compact&theme=vue&hide_border=true&bg_color=ffffff)
