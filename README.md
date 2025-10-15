@@ -21,3 +21,4 @@ $ stats
 
 
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=bestksl&exclude_repo=dotfiles,myblog&langs_count=6&layout=compact&random=1998999999)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=bestksl&exclude_repo=dotfiles,myblog&langs_count=6&layout=compact&random=1999999999)
