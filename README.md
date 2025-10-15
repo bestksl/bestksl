@@ -19,4 +19,4 @@ $ current
 $ stats  
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=bestksl&show_icons=true&theme=vue&hide_border=true&bg_color=ffffff&border_color=eeeeee)
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=bestksl&layout=compact&theme=vue&hide_border=true&bg_color=ffffff)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=bestksl&layout=compact&theme=vue&hide_border=true&bg_color=ffffff&random=1998999999)
