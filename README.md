@@ -1,3 +1,10 @@
+<!--
+  Overlay 以藏形，Overlap 以夺时。
+  空间无争，时间无隙——系统自疾。
+
+  hello, source reader. you're the target audience.
+-->
+
 # bestksl
 
 Systems Engineer · AI Infrastructure
@@ -13,3 +20,13 @@ Open-source Imaging & Edge Intelligence — 以相机承载应用，以模型方
 ## 其他
 
 - **[Astron-xmod-shim](https://github.com/iflytek/Astron-xmod-shim)** — Goal 驱动的声明式 AI 服务管控中间件（Go / Kubernetes）
+
+<details>
+<summary>$ ls ~/etc</summary>
+
+`go` · `kotlin` · `python` · `kubernetes` · `camera2` · `mediapipe` · `nnapi` · `zsh` · `darwin`
+
+</details>
+
+$ echo $?  
+0
