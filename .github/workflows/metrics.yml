@@ -1,7 +1,8 @@
 name: profile-metrics
 
-# 每天定时 + 每次 push + 手动触发：生成统计卡 SVG 并提交回 main，
-# README 引用 raw.githubusercontent.com（GitHub 自家域名），不依赖任何公共 Vercel 实例。
+# 每天 03:17 + 每次 push + 手动触发：在本仓生成统计卡 metrics.classic.svg 并自动提交。
+# 图片走 raw.githubusercontent.com（GitHub 域名，经 camo 代理），不依赖公共 Vercel 实例。
+# token 优先用自定义 PAT（secrets.METRICS_TOKEN，可读全部公开仓/组织），未配置时退回 GITHUB_TOKEN。
 on:
   schedule:
     - cron: "17 3 * * *"
@@ -16,22 +17,8 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
-      - uses: actions/checkout@v4
-
-      - uses: lowlighter/metrics@latest
+      - uses: lowlighter/metrics@3.34.0
         with:
           filename: metrics.classic.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
           user: bestksl
-
-      - name: Commit generated card
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add metrics.classic.svg
-          if git diff --staged --quiet; then
-            echo "no changes"
-          else
-            git commit -m "chore: refresh metrics card"
-            git push
-          fi
+          token: ${{ secrets.METRICS_TOKEN || secrets.GITHUB_TOKEN }}
