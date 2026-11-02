@@ -7,8 +7,6 @@
 
 # bestksl
 
-Systems Engineer · AI Infrastructure
-
 ## [light-witness-lab](https://github.com/light-witness-lab) · 光证实验室
 
 Open-source Imaging & Edge Intelligence — 以相机承载应用，以模型方案实现能力，以推理工程释放设备性能。
@@ -20,13 +18,6 @@ Open-source Imaging & Edge Intelligence — 以相机承载应用，以模型方
 ## 其他
 
 - **[Astron-xmod-shim](https://github.com/iflytek/Astron-xmod-shim)** — Goal 驱动的声明式 AI 服务管控中间件（Go / Kubernetes）
-
-<details>
-<summary>$ ls ~/etc</summary>
-
-`go` · `kotlin` · `python` · `kubernetes` · `camera2` · `mediapipe` · `nnapi` · `zsh` · `darwin`
-
-</details>
 
 $ echo $?  
 0
