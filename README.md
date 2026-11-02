@@ -19,5 +19,4 @@ Open-source Imaging & Edge Intelligence — 以相机承载应用，以模型方
 
 - **[Astron-xmod-shim](https://github.com/iflytek/Astron-xmod-shim)** — Goal 驱动的声明式 AI 服务管控中间件（Go / Kubernetes）
 
-$ echo $?  
-0
+![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=bestksl)
